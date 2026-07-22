@@ -108,9 +108,9 @@ Pełna dokumentacja:
 Krunixbase posiada pełną dokumentację systemową:
 
 - **[Whitepaper](whitepaper.md)** 
-- [README premium](README.md)  
-- [Moduły systemu](ca://s?q=pokaz_moduly_systemu)  
-- [Brandbook](ca://s?q=pokaz_brandbook)   
+- [README](README.md)  
+- [Moduly systemu](moduly_systemu.md)  
+- [Brandbook](brandbook.md)   
 
 ---
 
