@@ -97,7 +97,7 @@ Krunixbase idealnie wpisuje się w ten trend.
 - **DevOps** — CI/CD, Docker, monitoring  
 
 Pełna dokumentacja:  
-**Architektura**
+**[Architektura](modul_architektura.md)**
 
 ---
 
@@ -151,10 +151,10 @@ To eliminuje powtarzalną pracę.
 ## **SLIDE 11 — Dokumentacja**
 Krunixbase posiada pełną dokumentację:
 
-- **Whitepaper**  
-- **README premium**  
-- **Moduły systemu**  
-- **Brandbook**  
+- **[Whitepaper](whitepaper.md)**  
+- **[README premium](README_premium)**
+- **[Moduły systemu](moduly_systemu)**  
+- **[Brandbook](brandbook)**  
 
 ---
 
