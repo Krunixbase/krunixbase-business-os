@@ -14,8 +14,8 @@ Repozytorium zawiera:
 System jest gotowy do wdrożenia i może stać się centrum operacyjnym firmy.
 
 ## Historyczna oferta
-Dokumenty w folderze `/docs/offer` przedstawiają pełną ofertę współpracy przygotowaną dla AJAI.
-Oferta została udostępniona publicznie jako element portfolio i przykład procesu partnerskiego Krunixbase.
+Dokument w folderze `/docs/offer` jest historyczną ofertą współpracy przygotowaną pierwotnie dla jednej z firm.
+Nazwa firmy została usunięta z dokumentu w celu zachowania neutralności repozytorium oraz możliwości wykorzystania oferty jako uniwersalnego case study.
 
 ## Roadmap
 - Moduł ofert
