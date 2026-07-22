@@ -63,7 +63,7 @@ Krunixbase Business OS składa się z pięciu warstw:
 - **DevOps** — CI/CD, kontenery, monitoring, alerting  
 
 Pełna dokumentacja:  
-**Architektura**
+**[Architektura](ca://s?q=pokaz_modul_architektura)**
 
 ---
 
@@ -107,10 +107,10 @@ Pełna dokumentacja:
 
 Krunixbase posiada pełną dokumentację systemową:
 
-- Whitepaper  
-- README premium  
-- Moduły systemu  
-- Brandbook  
+- [Whitepaper](ca://s?q=pokaz_whitepaper)  
+- [README premium](ca://s?q=pokaz_README_premium)  
+- [Moduły systemu](ca://s?q=pokaz_moduly_systemu)  
+- [Brandbook](ca://s?q=pokaz_brandbook)   
 
 ---
 
@@ -128,7 +128,7 @@ Repozytorium:
 **https://github.com/Krunixbase/krunixbase-business-os**
 
 Kontakt:  
-**krunixbase@gmail.com**
+**Andrzej Dobrucki**
 
 ---
 
@@ -144,3 +144,5 @@ Krunixbase Business OS posiada:
 - fundament do dalszego rozwoju.
 
 Projekt jest oficjalnie gotowy do prezentacji światu.
+
+```
