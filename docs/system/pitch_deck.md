@@ -152,12 +152,9 @@ To eliminuje powtarzalną pracę.
 Krunixbase posiada pełną dokumentację:
 
 - **[Whitepaper](whitepaper.md)**
-- 
-- **[README premium](README_premium)**
-- 
-- **[Moduły systemu](moduly_systemu)**
--  
-- **[Brandbook](brandbook)**  
+- **[README premium](README_premium.md)**
+- **[Moduły systemu](moduly_systemu.md)**
+- **[Brandbook](brandbook.md)**  
 
 ---
 
