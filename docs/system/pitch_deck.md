@@ -151,9 +151,12 @@ To eliminuje powtarzalną pracę.
 ## **SLIDE 11 — Dokumentacja**
 Krunixbase posiada pełną dokumentację:
 
-- **[Whitepaper](whitepaper.md)**  
+- **[Whitepaper](whitepaper.md)**
+- 
 - **[README premium](README_premium)**
-- **[Moduły systemu](moduly_systemu)**  
+- 
+- **[Moduły systemu](moduly_systemu)**
+-  
 - **[Brandbook](brandbook)**  
 
 ---
