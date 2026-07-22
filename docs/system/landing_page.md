@@ -128,7 +128,7 @@ Repozytorium:
 **https://github.com/Krunixbase/krunixbase-business-os**
 
 Kontakt:  
-**Andrzej Dobrucki**
+**krunixbase@gmail.com**
 
 ---
 
@@ -144,5 +144,3 @@ Krunixbase Business OS posiada:
 - fundament do dalszego rozwoju.
 
 Projekt jest oficjalnie gotowy do prezentacji światu.
-
-```
