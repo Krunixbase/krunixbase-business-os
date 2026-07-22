@@ -63,7 +63,7 @@ Krunixbase Business OS składa się z pięciu warstw:
 - **DevOps** — CI/CD, kontenery, monitoring, alerting  
 
 Pełna dokumentacja:  
-**[Architektura](ca://s?q=pokaz_modul_architektura)**
+**[Architektura](modul_architektura.md)**
 
 ---
 
