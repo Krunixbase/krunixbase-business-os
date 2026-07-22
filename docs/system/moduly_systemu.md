@@ -120,13 +120,13 @@ Wszystkie moduły Krunixbase Business OS są:
 - **[Architektura](modul_architektura.md)**  
 - **[Whitepaper](whitepaper.md)**  
 - **[README premium](README_premium.md)**  
-- **[Brandbook](brandbook.md)  
-- [Moduł API](ca://s?q=pokaz_modul_api)  
-- [Moduł Baza Danych](ca://s?q=pokaz_modul_baza_danych)  
-- [Moduł Deployment](ca://s?q=pokaz_modul_deployment)  
-- [Moduł DevOps](ca://s?q=pokaz_modul_devops)  
-- [Moduł Testy](ca://s?q=pokaz_modul_testy)  
-- [Moduł UI/UX](ca://s?q=pokaz_modul_ui_ux)
+- **[Brandbook](brandbook.md)** 
+- **[Moduł API](modul_api.md)**  
+- **[Moduł Baza Danych](modul_baza_danych.md)**  
+- **[Moduł Deployment](modul_deployment.md)**
+- **[Moduł DevOps](modul_devops.md)**  
+- **[Moduł Testy](modul_testy.md)**  
+- **[Moduł UI/UX](modul_ui_ux.md)**
 
 ---
 
