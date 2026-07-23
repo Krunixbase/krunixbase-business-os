@@ -144,8 +144,7 @@ Pełny brandbook:
 - **[Whitepaper](whitepaper.md)**  
 - **[Pitch Deck](pitch_deck.md)**  
 - **[README premium](README_premium.md)**  
-- **[Moduły systemu](moduly_systemu)**  
-
+- **[Moduły systemu](moduly_systemu.md)**
 ---
 
 # 10. Kontakt
