@@ -1,106 +1,159 @@
 # **Moduł Cennik Dynamiczny — Krunixbase Business OS**
 
 Moduł **Cennik Dynamiczny** odpowiada za inteligentne, sprawiedliwe i automatyczne ustalanie cen pakietów Krunixbase.  
-Jego celem jest **zrównoważenie misji społecznej z ochroną twórców**, tak aby:
-
-- każdy mógł zacząć,  
-- nikt nie był wykluczony,  
-- a my nie byliśmy przeciążeni darmową obsługą tysięcy kont.
+Łączy misję społeczną z ochroną twórców, zapewniając **najlepszą cenę w Polsce**, ale bez ryzyka przeciążenia darmowymi kontami.
 
 ---
 
-## 🎯 Cele modułu
+## 🟦 Pakiety i ceny (pełna lista)
 
-- zapewnić najniższe ceny w Polsce,  
-- chronić twórców przed nadmiernym obciążeniem,  
-- dostosować cenę do sytuacji firmy,  
-- automatycznie dobierać najlepszy plan,  
-- wspierać mikrofirmy i osoby zaczynające od zera,  
-- utrzymać równowagę między misją społeczną a realiami operacyjnymi.
+### **1. STARTER — 0 zł przez rok → 9 zł/m‑c**
+Pakiet społeczny dla mikrofirm, JDG, freelancerów.
 
----
-
-## 🔧 Funkcje modułu
-
-- dynamiczne ustalanie ceny,  
-- analiza aktywności użytkownika,  
-- analiza przychodów firmy (opcjonalnie),  
-- analiza wykorzystania modułów,  
-- automatyczne przełączanie planów,  
-- zamrażanie ceny w trudnych okresach,  
-- obniżki społeczne,  
-- rekomendacje planów,  
-- logika anty‑wyzyskowa.
-
----
-
-## 🟦 Model STARTER (0 zł → 9 zł/m‑c)
-
-### **0 zł przez 12 miesięcy**
-Każdy może zacząć bez barier.
-
-### **9 zł/m‑c po roku**
-Symboliczna opłata, aby:
-
-- nie mieć tysięcy darmowych kont,  
-- nie pracować za darmo ponad siły,  
-- nie utrzymywać infrastruktury z własnej kieszeni.
-
-To jest **ochrona twórców**, nie komercja.
-
----
-
-## 🧠 Logika dynamiczna
-
-Silnik analizuje:
-
-- liczbę użytkowników,  
-- aktywność,  
-- moduły,  
-- historię płatności,  
-- czy firma jest w trudnej sytuacji,  
-- czy firma rośnie,  
-- czy firma korzysta z modułów premium.
-
-Na tej podstawie dobiera **najbardziej sprawiedliwą cenę**.
-
----
-
-## 🤖 Automatyzacje cenowe
-
-### 1. IF firma dopiero startuje → THEN STARTER 0 zł
-
-**pakiet startowy**
-
-### 2. IF minęło 12 miesięcy → THEN 9 zł/m‑c
+- CRM  
+- Zadania  
+- Projekty  
+- 1 automatyzacja  
+- 1 dashboard BI  
+- 1 użytkownik  
 
 ```json
 {
-  "trigger": "subscription.period_end",
-  "action": "subscriptions.switch_plan",
-  "params": {
-    "from": "STARTER_FREE",
-    "to": "STARTER_SYMBOLIC",
-    "price": 9
-  }
+  "name": "STARTER",
+  "price_free_period_months": 12,
+  "price_after": 9,
+  "modules": ["crm", "tasks", "projects"],
+  "limits": { "users": 1, "automations": 1, "dashboards": 1 }
 }
 ```
 
-### 3. IF firma ma trudniejszy okres → THEN zamroź cenę
+---
 
-**zamrożenie ceny**
+### **2. GROW — 29 zł/m‑c**
+Dla małych firm, które zaczynają rosnąć.
 
-### 4. IF firma rośnie → THEN zaproponuj GROW
+- CRM  
+- Projekty  
+- Zadania  
+- Budżety  
+- Płatności  
+- Automatyzacje  
+- BI  
+- 3 użytkowników  
 
-**upgrade społeczny**
+```json
+{
+  "name": "GROW",
+  "price": 29,
+  "modules": ["crm", "projects", "tasks", "budgets", "payments", "automations", "bi"],
+  "limits": { "users": 3 }
+}
+```
+
+---
+
+### **3. PRO — 79 zł/m‑c**
+Dla firm, które działają aktywnie.
+
+- wszystkie moduły  
+- workflow  
+- AI predykcja  
+- integracje REST  
+- 10 użytkowników  
+
+```json
+{
+  "name": "PRO",
+  "price": 79,
+  "modules": "all",
+  "limits": { "users": 10 }
+}
+```
+
+---
+
+### **4. ENTERPRISE — 299 zł/m‑c**
+Dla software house’ów, integratorów, dużych zespołów.
+
+- pełny Business OS  
+- moduły premium  
+- automatyzacje unlimited  
+- workflow unlimited  
+- integracje REST  
+- 50 użytkowników  
+
+```json
+{
+  "name": "ENTERPRISE",
+  "price": 299,
+  "modules": "all_premium",
+  "limits": { "users": 50 }
+}
+```
+
+---
+
+## 🧩 Logika dynamiczna
+
+Silnik dynamiczny dobiera cenę na podstawie:
+
+- aktywności użytkownika,  
+- liczby modułów,  
+- liczby użytkowników,  
+- przychodów firmy (opcjonalnie),  
+- historii płatności,  
+- sytuacji ekonomicznej firmy,  
+- czy firma dopiero startuje,  
+- czy firma ma trudniejszy okres.
+
+---
+
+## 🤖 Reguły dynamiczne (JSON)
+
+### 1. STARTER → SYMBOLIC (po roku)
+
+```json
+{
+  "name": "Starter to Symbolic",
+  "condition": { "months_since_registration": ">12" },
+  "action": { "switch_plan": "STARTER_SYMBOLIC", "price": 9 }
+}
+```
+
+### 2. Zamrożenie ceny w trudnym okresie
+
+```json
+{
+  "name": "Freeze Price",
+  "condition": { "financial_status": "critical" },
+  "action": { "freeze_price": true }
+}
+```
+
+### 3. Automatyczny upgrade do GROW
+
+```json
+{
+  "name": "Upgrade to Grow",
+  "condition": { "usage_score": ">70" },
+  "action": { "switch_plan": "GROW" }
+}
+```
 
 ---
 
 ## 🗄️ Schemat bazy danych
 
-### Tabela: `dynamic_pricing_rules`
+### Tabela: `pricing_plans`
 - id  
 - nazwa  
+- cena  
+- moduły (JSONB)  
+- limity (JSONB)  
+- okresy specjalne (JSONB)
+
+### Tabela: `dynamic_pricing_rules`
+- id  
 - warunek (JSONB)  
 - akcja (JSONB)  
 - priorytet  
@@ -117,26 +170,9 @@ Na tej podstawie dobiera **najbardziej sprawiedliwą cenę**.
 
 ---
 
-## 📊 Przykład reguły (JSON)
+## ❤️ Manifest cenowy Krunixbase
 
-```json
-{
-  "name": "Starter to Symbolic",
-  "condition": {
-    "months_since_registration": ">12"
-  },
-  "action": {
-    "switch_plan": "STARTER_SYMBOLIC",
-    "price": 9
-  }
-}
-```
-
----
-
-## ❤️ Manifest modułu
-
-> „Cennik Krunixbase nie jest narzędziem do zarabiania.  
+> „Cennik nie jest narzędziem do zarabiania.  
 > Jest narzędziem do równowagi:  
 > pomagamy ludziom, ale nie pozwalamy, żeby nasza pomoc nas niszczyła.”
 
@@ -146,7 +182,6 @@ Na tej podstawie dobiera **najbardziej sprawiedliwą cenę**.
 
 Moduł Cennik Dynamiczny jest:
 
-- opisany,  
+- kompletny,  
 - udokumentowany,  
 - zgodny z misją społeczną,  
-- gotowy do implementacji.
