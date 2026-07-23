@@ -130,7 +130,7 @@ GET /api/tasks/list
 ```
 
 Pełna dokumentacja API:  
-**[moduł API](moduly_api.md)**
+**[moduł API](modul_api.md)**
 
 ---
 
