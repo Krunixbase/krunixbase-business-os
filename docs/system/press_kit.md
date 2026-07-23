@@ -67,7 +67,7 @@ System składa się z pięciu warstw:
 - **DevOps** — CI/CD, kontenery, monitoring, alerting  
 
 Pełna dokumentacja:  
-**Architektura**
+**[Architektura](modul_architektura.md)**
 
 ---
 
@@ -126,7 +126,7 @@ System automatyzacji IF→THEN działa na każdym module:
 - Inter (Light, Regular, Medium, SemiBold, Bold)
 
 Pełny brandbook:  
-**Brandbook**
+**[Brandbook](brandbook.md)**
 
 ---
 
@@ -141,10 +141,10 @@ Pełny brandbook:
 - whitepaper  
 
 ### Dokumenty:
-- **Whitepaper**  
-- **Pitch Deck**  
-- **README premium**  
-- **Moduły systemu**  
+- **[Whitepaper](whitepaper.md)**  
+- **[Pitch Deck](pitch_deck.md)**  
+- **[README premium](README_premium.md)**  
+- **[Moduły systemu](moduly_systemy.md)**  
 
 ---
 
