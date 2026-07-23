@@ -1,3 +1,27 @@
+<p align="center">
+  <img src="assets/logo/krunixbase_logo_dark_220.png" width="220" alt="Krunixbase Logo"/>
+</p>
+
+<h1 align="center">nazwa-modułu</h1>
+
+<p align="center">
+Offline • Deterministic • Zero.Telemetry • Krunixbase Engine
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/language-Python%203.10%2B-blue" />
+  <img src="https://img.shields.io/badge/mode-offline%20only-darkgreen" />
+  <img src="https://img.shields.io/badge/engine-Krunixbase-orange" />
+  <img src="https://img.shields.io/badge/license-MIT-yellow" />
+  <img src="https://img.shields.io/badge/status-active-brightgreen" />
+  <img src="https://img.shields.io/badge/security-offline-first-darkgreen" />
+  <img src="https://img.shields.io/badge/privacy-zero%20telemetry-blueviolet" />
+  <img src="https://img.shields.io/badge/data%20flow-no%20cloud%20APIs-critical" />
+  <img src="https://img.shields.io/badge/audit-ready%20sessions-orange" />
+</p>
+
+---
+
 # Krunixbase Business OS
 ### Modularny system operacyjny dla biznesu — CRM, Projekty, Budżety, KSeF, Płatności, BI, Automatyzacje, AI
 
