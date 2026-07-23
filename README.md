@@ -1,12 +1,6 @@
 <p align="center">
   <img src="assets/logo/krunixbase_business_os_logo.png" width="220" alt="Krunixbase Logo"/>
 </p>
-<h1 align="center"></h1>
-<p align="center">
-</p>
-<p align="center">
-  <img src="assets/logo/krunixbase_business_os_badge_220.png" width="220" alt="Krunixbase Badge"/>
-</p>
 
 ---
 
