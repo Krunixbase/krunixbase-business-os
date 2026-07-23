@@ -4,6 +4,9 @@
 <h1 align="center"></h1>
 <p align="center">
 </p>
+<p align="center">
+  <img src="assets/logo/krunixbase_badge_220.png" width="220" alt="Krunixbase Badge"/>
+</p>
 
 ---
 
