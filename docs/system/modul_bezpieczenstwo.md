@@ -122,7 +122,7 @@ System implementuje:
 
 - **[moduł architektura](modul_architektura.md)**  
 - **[moduł API](modul_api.md)**  
-- **[moduł automatyzacje]{modul_automatyzacje.md)**  
+- **[moduł automatyzacje](modul_automatyzacje.md)**  
 - **[moduł baza danych](modul_baza_danych.md)**  
 
 ---
