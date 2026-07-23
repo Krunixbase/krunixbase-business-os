@@ -1,9 +1,8 @@
-<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+<svg width="220" height="220" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
 
-  <!-- Transparent background -->
   <rect width="512" height="512" fill="none"/>
 
-  <!-- Hexagon outline -->
+  <!-- Hexagon outline (z PNG) -->
   <polygon 
     points="256,60 380,140 380,280 256,360 132,280 132,140"
     fill="none"
@@ -11,9 +10,27 @@
     stroke-width="14"
   />
 
-  <!-- Letter K (monochrome fill) -->
+  <!-- NOWA litera K — optycznie wycentrowana -->
   <path 
-    d="M210 160 L240 160 L240 240 L300 160 L340 160 L280 240 L340 320 L300 320 L240 250 L240 320 L210 320 Z"
+    d="
+      M220 160
+      L260 160
+      L260 230
+
+      L290 230
+      L330 160
+      L360 160
+      L305 250
+
+      L360 320
+      L330 320
+      L290 255
+
+      L260 255
+      L260 320
+      L220 320
+      Z
+    "
     fill="#FFFFFF"
   />
 
