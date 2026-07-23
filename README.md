@@ -1,14 +1,9 @@
 <p align="center">
   <img src="assets/logo/krunixbase-business-os_logo.png" width="220" alt="Krunixbase Logo"/>
 </p>
-
 <h1 align="center">krunixbase-business-os</h1>
-
 <p align="center">
-
 </p>
-
-
 
 ---
 
