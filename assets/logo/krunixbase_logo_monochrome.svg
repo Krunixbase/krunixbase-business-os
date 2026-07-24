@@ -1,37 +1,36 @@
 <svg width="220" height="220" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
 
-  <rect width="512" height="512" fill="none"/>
+  <!-- Tło monochromatyczne -->
+  <rect width="512" height="512" fill="white"/>
 
-  <!-- Hexagon outline (z PNG) -->
+  <!-- Heksagon monochromatyczny -->
   <polygon 
     points="256,60 380,140 380,280 256,360 132,280 132,140"
     fill="none"
-    stroke="#FFFFFF"
+    stroke="#111"
     stroke-width="14"
   />
 
-  <!-- NOWA litera K — optycznie wycentrowana -->
+  <!-- Litera K monochromatyczna -->
   <path 
     d="
-      M220 160
-      L260 160
-      L260 230
+      M176 170
+      L226 170
+      L226 240
 
-      L290 230
-      L330 160
-      L360 160
-      L305 250
+      L276 170
+      L336 170
+      L276 245
 
-      L360 320
-      L330 320
-      L290 255
+      L336 310
+      L276 310
+      L226 255
 
-      L260 255
-      L260 320
-      L220 320
+      L226 310
+      L176 310
       Z
     "
-    fill="#FFFFFF"
+    fill="#111"
   />
 
 </svg>
