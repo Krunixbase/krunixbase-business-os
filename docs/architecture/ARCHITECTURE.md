@@ -1,4 +1,4 @@
-**KRUNIXBASE Business OS — Architecture Specification**
+# **KRUNIXBASE Business OS — Architecture Specification**
 
 ---
 
