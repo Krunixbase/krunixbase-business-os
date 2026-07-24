@@ -1,0 +1,44 @@
+<svg width="220" height="220" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <!-- Monochromatyczny gradient -->
+    <linearGradient id="monoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#333"/>
+      <stop offset="100%" stop-color="#111"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Tło jasne -->
+  <rect width="512" height="512" fill="white"/>
+
+  <!-- Heksagon gradientowy monochromatyczny -->
+  <polygon 
+    points="256,60 380,140 380,280 256,360 132,280 132,140"
+    fill="none"
+    stroke="url(#monoGrad)"
+    stroke-width="14"
+  />
+
+  <!-- Litera K gradientowa monochromatyczna -->
+  <path 
+    d="
+      M176 170
+      L226 170
+      L226 240
+
+      L276 170
+      L336 170
+      L276 245
+
+      L336 310
+      L276 310
+      L226 255
+
+      L226 310
+      L176 310
+      Z
+    "
+    fill="url(#monoGrad)"
+  />
+
+</svg>
