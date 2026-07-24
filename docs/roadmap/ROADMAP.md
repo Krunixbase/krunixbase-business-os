@@ -26,7 +26,7 @@ Cele roadmapy:
 - deterministyczne logowanie
 
 ### **2.2 Dokumentacja systemowa**  
-- Architecture  
+- **[Architecture](docs/architecture/ARCHITECTURE.md)**  
 - Modules  
 - Security  
 - Deterministic Workflow  
