@@ -1,0 +1,50 @@
+<svg width="220" height="220" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Gradient tła -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6A00FF"/>
+      <stop offset="100%" stop-color="#00A8FF"/>
+    </linearGradient>
+
+    <!-- Gradient dla heksagonu i litery K -->
+    <linearGradient id="strokeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E0E0E0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Tło gradientowe -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+
+  <!-- Heksagon gradientowy -->
+  <polygon 
+    points="256,60 380,140 380,280 256,360 132,280 132,140"
+    fill="none"
+    stroke="url(#strokeGrad)"
+    stroke-width="14"
+  />
+
+  <!-- Litera K gradientowa -->
+  <path 
+    d="
+      M176 170
+      L226 170
+      L226 240
+
+      L276 170
+      L336 170
+      L276 245
+
+      L336 310
+      L276 310
+      L226 255
+
+      L226 310
+      L176 310
+      Z
+    "
+    fill="url(#strokeGrad)"
+  />
+
+</svg>
