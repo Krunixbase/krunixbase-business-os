@@ -1,0 +1,36 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Jasne tło -->
+  <rect width="512" height="512" fill="white"/>
+
+  <!-- Heksagon w kolorze ciemnym -->
+  <polygon 
+    points="256,60 380,140 380,280 256,360 132,280 132,140"
+    fill="none"
+    stroke="#111"
+    stroke-width="14"
+  />
+
+  <!-- Litera K 1:1 z PNG, w kolorze ciemnym -->
+  <path 
+    d="
+      M176 170
+      L226 170
+      L226 240
+
+      L276 170
+      L336 170
+      L276 245
+
+      L336 310
+      L276 310
+      L226 255
+
+      L226 310
+      L176 310
+      Z
+    "
+    fill="#111"
+  />
+
+</svg>
